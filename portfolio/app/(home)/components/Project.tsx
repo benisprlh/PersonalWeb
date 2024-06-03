@@ -1,10 +1,61 @@
 export const Projects = [
   {
-    title: "E-Commerce Website",
-    image: "",
+    title: "Corefash",
+    image: "/corefash.png",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eum odit architecto explicabo rerum quo?",
-    technologies: ["ReactJS", "Tailwind", "NodeJS", "MongoDB", "ExpressJS"],
+      "'CoreFash' is a solo project of mine, an e-commerce website. It incorporates features such as login/register, infinite scroll, add to wishlist, and product search. Taking on the role of a fullstack developer, I utilized a tech stack that includes Typescript, MongoDB, Next.js, bcryptjs, JWT, GraphQL, and Apollo to implement the functionalities seamlessly.",
+    technologies: ["Typescript", "MongoDB", "NextJs", "Tailwind", "GraphQL"],
+  },
+  {
+    title: "Terrarium",
+    image: "/terrarium.jpg",
+    description:
+      "Terrarium is a web-based application to make it easier for local residents, especially farmers, to sell their agricultural products. With this website, farmers can sell their agricultural products easily and also at a predetermined market price. So that farmers no longer sell their agricultural products far below the market price.",
+    technologies: [
+      "ReactJS",
+      "Tailwind",
+      "NodeJS",
+      "Whatsapp Bot JS",
+      "ExpressJS",
+      "PostgreSQL",
+      "Midtrans",
+      "Sequelize",
+    ],
+  },
+  {
+    title: "Basketball Information",
+    image: "/bbi.png",
+    description:
+      '"Basketball Information" is my individual project that encompasses various features such as Google Auth, Midtrans Payment Gateway integration, standard login and register functionality, data retrieval from an API, and account upgrade capabilities. In this project, I assumed the role of a full-stack developer, employing a tech stack that includes JavaScript, Express.js, Sequelize, PostgreSQL, React, Redux, bcryptjs, and JWT for enhanced security and authentication.',
+    technologies: [
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "PostgreSQL",
+      "ExpressJS",
+      "Sequelize",
+    ],
+  },
+  {
+    title: "Talk To Stranger",
+    image: "/talkToStranger.png",
+    description:
+      "'Talk To Stranger' is a group project involving three team members, aimed at creating an application that enables users to engage in real-time voice calls with others registered on our platform. In this project, I took on the role of a fullstack developer and was responsible for ensuring the smooth implementation of the voice call feature. Additionally, I was tasked with designing the user interface (UI) for the main page of the project. The tech stack utilized includes Javascript, Sequelize, PostgreSQL, React, Redux, Socket.IO, bcryptjs, and JWT.",
+    technologies: [
+      "ReactJS",
+      "Redux",
+      "Socket.io",
+      "PostgreSQL",
+      "ExpressJS",
+      "Sequelize",
+    ],
+  },
+  {
+    title: "Sosmed Me",
+    image: "/sosmedMe.png",
+    description:
+      "'Sosmed Me' is a group project that I collaborated on during a bootcamp with a team of two members. The project primarily focuses on the development of login, register, and CRUD features. In this project, I took responsibility for crafting both the frontend and backend for the login and register modules. The tech stack employed includes JavaScript for frontend development, Express.js for the backend, Sequelize as the ORM (Object-Relational Mapping) tool, and PostgreSQL as the database. Additionally, session management was implemented to enhance security and authorization.",
+    technologies: ["PostgreSQL", "ExpressJS", "Sequelize"],
   },
 ];
 
