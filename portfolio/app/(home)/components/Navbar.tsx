@@ -9,12 +9,12 @@ const Navbar = () => {
       Icon: SiLinkedin,
     },
     {
-      link: "https://www.linkedin.com/in/beni-saprulah",
+      link: "https://www.github.com/benisprlh",
       label: "Github",
       Icon: SiGithub,
     },
     {
-      link: "https://www.linkedin.com/in/beni-saprulah",
+      link: "https://www.instagram.com/benisprlh",
       label: "Instagram",
       Icon: SiInstagram,
     },
